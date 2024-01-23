@@ -1,0 +1,40 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+p{
+  font-weight: bold;
+}
+ .side-bar {
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 300px;
+  height: 100%;
+  padding-top: 45px;
+}
+
+.main {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 400px;
+}

@@ -1,0 +1,11 @@
+.main {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+.main ul > li{
+    margin-bottom: 20px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+}
