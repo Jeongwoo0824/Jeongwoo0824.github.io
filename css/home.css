@@ -1,11 +1,59 @@
+.main-top{
+    font-weight: bold;
+    display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        font-size: 130px;
+        margin: 8px 0px;
+}
+.main-top::after{
+    content: "";
+        flex-grow: 1;
+        background: black;
+        height: 3px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 16px;
+}
+.introduce{
+    display: inline-block;
+    font-size: 30px;
+    padding:50px 0 50px 0;
+    width : 75%;
+}
+.connect{
+    display: flex;
+    width: 200px;
+    float: right;
+        flex-basis: 70%;
+        align-items: center;
+        font-size: 70x;
+        margin: -20px 0px;
+} 
+.connect span{
+    font-size: 30px;
+}
+.connect::after{
+    content: "";
+        flex-grow: 1;
+        background: black;
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 16px;
+}
 .main {
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 400px;
 }
-.main ul > li{
-    margin-bottom: 20px;
-    display: block;
+
+.main > ul > li{
+    width: 30%;
+    height: 400px;
+    margin-bottom: 30px;
+    display: inline-block;
     border: 1px solid black;
     border-radius: 10px;
+}
+.skill > h2{
+    margin-left: -50%;
 }

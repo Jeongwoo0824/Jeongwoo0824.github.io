@@ -1,14 +1,25 @@
-body,
+body{
+  background-color: #E8F5FF;
+  box-sizing: border-box;
+  min-height : 100vh;
+  width: 100%;
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: auto;    
+  margin-right: auto;
+}
+span{
+  padding: 5px 0;
+  display: block;
+}
 ul,
 li {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-ul {
   text-align: center;
 }
+
 
 a {
   color: inherit;
@@ -31,10 +42,4 @@ p{
   width: 300px;
   height: 100%;
   padding-top: 45px;
-}
-
-.main {
-  margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 400px;
 }
