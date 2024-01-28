@@ -1,5 +1,5 @@
 body{
-  background-color: #E8F5FF;
+  /* background-color: #E8F5FF; */
   box-sizing: border-box;
   min-height : 100vh;
   width: 100%;
@@ -33,13 +33,4 @@ img {
 
 p{
   font-weight: bold;
-}
- .side-bar {
-  background-color: lightgray;
-  position: absolute;
-  top: 0;
-  right: 0px;
-  width: 300px;
-  height: 100%;
-  padding-top: 45px;
 }

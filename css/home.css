@@ -45,15 +45,19 @@
 .main {
     margin-top: 20px;
 }
-
-.main > ul > li{
-    width: 30%;
+.main li{
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
     height: 400px;
-    margin-bottom: 30px;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid red;
 }
-.skill > h2{
-    margin-left: -50%;
+.main li:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.skill span{
+    font-size: 50px;
 }
