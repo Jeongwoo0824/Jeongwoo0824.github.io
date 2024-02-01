@@ -1,3 +1,14 @@
+p{
+    width: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: -5px;
+    background-color: white;
+    position: absolute;
+    color: grey;
+    font-size: 30px;
+}
 .main-top{
     font-weight: bold;
     display: flex;
@@ -21,27 +32,6 @@
     padding:50px 0 50px 0;
     width : 75%;
 }
-.connect{
-    display: flex;
-    width: 200px;
-    float: right;
-        flex-basis: 70%;
-        align-items: center;
-        font-size: 70x;
-        margin: -20px 0px;
-} 
-.connect span{
-    font-size: 30px;
-}
-.connect::after{
-    content: "";
-        flex-grow: 1;
-        background: black;
-        height: 1px;
-        font-size: 0px;
-        line-height: 0px;
-        margin: 0px 16px;
-}
 .main {
     margin-top: 20px;
 }
@@ -58,6 +48,57 @@
 .main li:hover{
     background-color:rgba(0,0,0,0.05);
 }
-.skill span{
-    font-size: 50px;
+.skill{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 120px;
+    text-align: center;
+    letter-spacing: 20px;
+    width: 45%;
+    margin: 10px 0;
+    padding: 25px 0 10px 0;
+    border:1px solid lightgray;
+    border-radius: 30px;
+}
+.skill img{
+    width: 75px;
+    height: 75px;
+    border-radius: 30%;
+    object-fit: fill;
+}
+.skill hr{
+    width:50%;
+    height: 3px;
+    border: 0;
+    background-color: grey;
+    margin: 10px 0;
+    padding: 0;
+}
+.connect{
+    white-space: pre-line;
+    float: right;
+    box-sizing: border-box;
+    line-height: 27px;
+    height: 120px;
+    text-align: left;
+    width: 45%;
+    margin: 10px 0;
+    padding: 25px 0 10px 40px;
+    border:1px solid lightgray;
+    border-radius: 30px;
+}
+.connect p{
+    width: 140px;
+    margin-left: -10px;
+    margin-top: -38px;
+}
+.connect span{
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+.connect img{
+    margin-bottom: -5px;
+    margin-right: 10px;
+    width:20px;
+    height: 20px;
 }
