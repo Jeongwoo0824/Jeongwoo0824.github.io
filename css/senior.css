@@ -1,5 +1,9 @@
 .info {
+    text-align: center;
     white-space: pre-line;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding:15px 0;
 }
 
 .info h1 {
@@ -8,7 +12,8 @@
 }
 
 .info p {
-    margin-left: 30px;
+    margin-top: -20px;
+    margin-left: 170px;
     text-align: left;
     font-size: 20px;
     line-height: 35px;
@@ -23,20 +28,24 @@
 }
 
 .text {
+    width:750px;
+    margin: 0 auto;
     white-space: pre-line;
     line-height: 35px;
 }
 
 .text h1 {
+    text-align: center;
     margin-bottom: -18px;
     font-size: 30px;
 }
 
 .text p {
+    padding:0 40px;
+    text-align: center;
     position: relative;
     font-size: 16px;
     margin-top: -23px;
-    margin-left: 40px;
 }
 
 .text hr {
@@ -46,13 +55,17 @@
     margin: 0;
     padding: 0;
 }
-
+.text img{
+    margin:-20px 0 40px 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 750px;
+    height: fit-content;
+    object-fit:contain;
+}
 .number_1{
-    position: absolute;
     background-color: #5AD2FF;
     border-radius: 100%;
-    margin-left: 15px;
-    margin-right: -10px;
     width: 30px;
     height: 30px;
     display: flex;
@@ -61,11 +74,8 @@
     float: left;
 }
 .number_2{
-    position: absolute;
     background-color:#9BC3FF;
     border-radius: 100%;
-    margin-left: 15px;
-    margin-right: -10px;
     width: 30px;
     height: 30px;
     display: flex;
@@ -74,11 +84,8 @@
     float: left;
 }
 .number_3{
-    position: absolute;
     background-color: #D5C2EE;
     border-radius: 100%;
-    margin-left: 15px;
-    margin-right: -10px;
     width: 30px;
     height: 30px;
     display: flex;

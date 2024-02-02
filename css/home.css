@@ -1,26 +1,26 @@
-p{
+/* p{
     width: 70px;
     letter-spacing: 1px;
     text-align: center;
     margin-left: 30px;
     margin-top: -5px;
-    background-color: white;
-    position: absolute;
-    color: grey;
+    background-color: #ADBC9F;
+    color: #12372A;
     font-size: 30px;
-}
+} */
 .main-top{
+    color:#3468C0;
     font-weight: bold;
     display: flex;
         flex-basis: 100%;
         align-items: center;
-        font-size: 130px;
+        font-size: 90px;
         margin: 8px 0px;
 }
 .main-top::after{
     content: "";
         flex-grow: 1;
-        background: black;
+        background: #3468C0;
         height: 3px;
         font-size: 0px;
         line-height: 0px;
@@ -32,39 +32,48 @@ p{
     padding:50px 0 50px 0;
     width : 75%;
 }
-.main {
-    margin-top: 20px;
+.main{
+    margin:20px 0;
 }
 .main li{
-    padding: 20px 0;
+    text-align: left;
+    white-space: pre-line;
+    padding: 30px 30px;
     margin: 0 auto;
-    width: 100%;
-    height: 400px;
+    height: 230 px;
+    border-radius: 20px;
     margin-bottom: 15px;
     display: block;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid red;
+    border: 2px solid #86A7FC;
 }
 .main li:hover{
     background-color:rgba(0,0,0,0.05);
 }
+.main h2{
+    font-weight: normal;
+    font-size:20px; 
+    padding:0;
+    margin: 10px 0 -10px 0;
+}
 .skill{
+    background-color: #86A7FC;
     box-sizing: border-box;
     display: inline-block;
     height: 120px;
     text-align: center;
     letter-spacing: 20px;
-    width: 45%;
+    width: 47%;
     margin: 10px 0;
     padding: 25px 0 10px 0;
-    border:1px solid lightgray;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 .skill img{
-    width: 75px;
-    height: 75px;
-    border-radius: 30%;
-    object-fit: fill;
+    background-color: white;
+    padding:5px 5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    object-fit: contain;
 }
 .skill hr{
     width:50%;
@@ -75,24 +84,20 @@ p{
     padding: 0;
 }
 .connect{
+    background-color: #436850;
     white-space: pre-line;
     float: right;
     box-sizing: border-box;
     line-height: 27px;
     height: 120px;
     text-align: left;
-    width: 45%;
+    width: 50%;
     margin: 10px 0;
-    padding: 25px 0 10px 40px;
-    border:1px solid lightgray;
-    border-radius: 30px;
-}
-.connect p{
-    width: 140px;
-    margin-left: -10px;
-    margin-top: -38px;
+    padding: 19px 0 10px 40px;
+    border-radius: 25px;
 }
 .connect span{
+    color: #FBFADA;
     padding-bottom: 5px;
     font-weight: normal;
 }
