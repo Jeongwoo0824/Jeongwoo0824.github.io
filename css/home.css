@@ -30,14 +30,17 @@
 
 .hello {
     display: inline-block;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 40px;
     padding: 20px 0;
+    margin: 10px 0;
     width: 50em;
 }
 
 .introduce{
-    display: inline-block;
+    padding-top: 20px;
+    height: 245px;
+    float: left;
 }
 .introduce_top{
     color: #3468C0;
@@ -46,9 +49,28 @@
     flex-basis: 100%;
     align-items: center;
     font-size: 20px;
-    width: 17.5em;
+    width: 19em;
 }
 .introduce_top::after {
+    content: "";
+    flex-grow: 1;
+    background: #3468C0;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 10px;
+}
+.introduce_bottom{
+    margin: 25px 0 -20px -15px;
+    color: #3468C0;
+    font-weight: bold;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    font-size: 20px;
+    width: 19em;
+}
+.introduce_bottom:after {
     content: "";
     flex-grow: 1;
     background: #3468C0;
@@ -65,8 +87,8 @@
     height: fit-content;
     text-align: left;
     width: fit-content;
-    margin: 10px 0;
-    padding: 20px 25px;
+    padding: 20px 5px 0 5px;
+    margin: 0 10px;
     /* border: 3px solid #3468C0; */
     border-radius: 25px;
 }
@@ -87,9 +109,9 @@
     height: 20px;
 }
 .skill{
-    display: inline-block;
-    width: 40%;
-    margin: 0;
+    float: right;
+    width: min-content;
+    height: 275px;
     padding:0;
 }
 .skill_top{
@@ -161,6 +183,7 @@
     margin:8px 20px;
 }
 .main {
+    float: left;
     margin: 20px 0;
     width: 100%;
 }
@@ -186,4 +209,24 @@
     font-size: 20px;
     padding: 0;
     margin: 10px 0 -10px 0;
+}
+
+.main_head{
+    margin: 10px 0 20px 0;
+    color: #3468C0;
+    font-weight: bold;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+}
+.main_head:after {
+    content: "";
+    flex-grow: 1;
+    background: #3468C0;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 10px;
 }
