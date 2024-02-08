@@ -39,7 +39,7 @@
 
 .introduce{
     padding-top: 10px;
-    height: 245px;
+    height: min-content;
     float: left;
 }
 .introduce_top{
@@ -61,10 +61,9 @@
     margin: 0px 10px;
 }
 .introduce_bottom{
-    margin: 25px 0 -20px -15px;
     color: #3468C0;
     font-weight: bold;
-    display: flex;
+    display: inline-flex;
     flex-basis: 100%;
     align-items: center;
     font-size: 20px;
@@ -79,23 +78,17 @@
     line-height: 0px;
     margin: 0px 10px;
 }
-.connect {
-    display: inline-block;
-    /* background-color: #86A7FC; */
-    white-space: pre-line;
-    line-height: 27px;
-    height: fit-content;
-    text-align: left;
-    width: fit-content;
-    padding: 20px 5px 0 5px;
-    margin: 0 10px;
-    /* border: 3px solid #3468C0; */
-    border-radius: 25px;
-}
-.connect h2{
-    margin: 0 0 10px 0;
+.introduce h2{
+    margin: 10px 20px;
     color: #3468C0;
     font-size: 18px;
+    white-space: pre-line;
+}
+.introduce h3{
+    padding: 0;
+    margin: 10px 20px;
+    font-size: 12px;
+    color: gray;
 }
 .connect span {
     border-radius: 5px;
@@ -116,8 +109,13 @@
     width: 20px;
     height: 20px;
 }
-.skill{
+.contact{
+    padding: 10px 0 0 0;
+    margin: 0px 10px;
     float: right;
+    width: min-content;
+}
+.skill{
     width: min-content;
     height: 275px;
     padding:0;

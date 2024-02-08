@@ -68,6 +68,13 @@
     justify-content: center;
     display: inline-flex;
 }
+.paragraph{
+    background-color: #E8F5FF;
+    text-align: center;
+    border-radius: 15px;
+    height: min-content;
+    padding:20px 0;
+}
 .text {
     float: right;
     width:730px;
@@ -83,10 +90,8 @@
 }
 
 .text p {
-    background-color: #E8F5FF;
-    padding:0 20px 0 40px;
     text-align: left;
-    border-radius: 15px;
+    padding:0 20px 0 40px;
     font-size: 16px;
     margin-top: -23px;
 }
@@ -99,10 +104,10 @@
     padding: 0;
 }
 .text img{
-    margin:-20px 0 40px 0;
+    margin:-20px 0 0px 0;
     border-radius: 10px;
     text-align: center;
-    width: 750px;
+    width: 650px;
     height: fit-content;
     object-fit:contain;
 }
@@ -116,7 +121,7 @@
     justify-content: center;
     float: left;
     left:5px;
-    top:15px;
+    top:-13px;
     position: relative;
 }
 .number_2{
@@ -129,7 +134,7 @@
     justify-content: center;
     float: left;
     left:5px;
-    top:15px;
+    top:-13px;
     position: relative;
 }
 .number_3{
@@ -142,6 +147,6 @@
     justify-content: center;
     float: left;
     left:5px;
-    top:15px;
+    top:-13px;
     position: relative;
 }
