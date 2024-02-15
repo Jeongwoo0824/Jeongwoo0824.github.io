@@ -7,7 +7,6 @@ header{
   position: fixed;
   background-color: white;
   color: #3468C0;
-  font-weight: bold;
   display: flex;
   align-items: center;
   font-size: 40px;
@@ -15,7 +14,6 @@ header{
 }
 body{
   box-sizing: border-box; 
-  min-height: 100vh;
   margin:0 auto;
 }
 
