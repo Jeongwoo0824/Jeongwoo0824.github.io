@@ -1,5 +1,5 @@
 .info {
-    float: left;
+    margin: 70px 0 0 40px;
     position: fixed;
     text-align: center;
     width: 220px;
@@ -76,7 +76,6 @@
     padding:20px 0;
 }
 .text {
-    float: right;
     width:730px;
     margin: 0 auto;
     white-space: pre-line;
