@@ -18,7 +18,13 @@
     line-height: 0px;
     margin: 0px 16px;
 } */
-
+.square{
+    margin-left: 35px;
+    margin-right: -50px;
+    height: 80px;
+    width: 5px;
+    background-color: #3468C0;
+}
 .hello {
     text-align: right;
     line-height: 40px;
